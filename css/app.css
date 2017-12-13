@@ -95,3 +95,44 @@ h1, h2, h3, h4, h5, h6, button{
 #lineup-container .column:nth-child(odd) figcaption{
     text-align: right
 }
+
+#tickets-container{
+    padding: 1em 0;
+    background-color: #f6e15f;
+    color: #161742;
+}
+
+.pricing-table{
+    border: 1px solid #161742;
+    font-family: 'Ravi Prakash', cursive;
+}
+
+.pricing-table li, .pricing-table li.description{
+    font-size: 20px;
+}
+
+.pricing-table li.price, .pricing-table li.title{
+    font-size: 30px;
+}
+
+.pricing-table a{
+    font-family: 'Bree Serif', serif;
+}
+
+.orbit-container{
+    height: auto !important;
+}
+
+.orbit-slide{
+    max-height: none !important;
+}
+
+#info-container{
+    background-color: #161742;
+    color: white;
+    padding: 1em 0;
+}
+
+#info-container .info-map iframe, #info-container .info-map img{
+    width: 100%
+}
