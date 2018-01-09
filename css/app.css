@@ -136,3 +136,13 @@ h1, h2, h3, h4, h5, h6, button{
 #info-container .info-map iframe, #info-container .info-map img{
     width: 100%
 }
+
+#suscribete-container{
+    background-color : #ee3f54;
+    color: white;
+    padding: 1em 0;
+}
+
+#suscribete-container h4 small{
+    color: #ffcddc;
+}

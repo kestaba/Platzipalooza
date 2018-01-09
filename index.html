@@ -177,49 +177,69 @@
     <!--/ Lineup -->
 
     <!-- Compra de boletos -->
-    <section id="tickets-container">
-      <h3 class="text-center"> Comprar boletos</h3>
-      <div class="row" data-equalizer data-equalize-on="small">
-
-        <div class="column small-10 small-offset-1 medium-6 medium-offset-3">
-          <ul class="pricing-table">
-            <li class="title">Platino</li>
-            <li class="price">$120</li>
-            <li class="description">Acceso viernes, sábado y domingo</li>
-            <li>2 bebidas por cada día</li>
-            <li>Parqueadero incluido todos los días</li>
-            <li>Participa de un sorteo para acceder al backstage</li>
-            <li><a class="button" href="#">Comprar platino</a></li>
-          </ul>          
+    <section id="tickets-container" data-magellan-target="tickets-container">
+        <h1 class="text-center">Comprar boletos</h1>
+        <div class="row" data-equalizer data-equalize-on="small">
+          <div class="column small-10 small-offset-1 medium-6 medium-offset-3">
+            <ul class="pricing-table no-bullet text-center">
+              <li class="title">Platino</li>
+              <li class="price">$120</li>
+              <li class="description">Acceso viernes, sábado y domingo</li>
+              <li>Acceso a todos los escenarios</li>
+              <li>2 consumiciones de bebida por cada día</li>
+              <li>Parqueadero incluido todos los días</li>
+              <li>Participa de un sorteo para ir acceder al backstage</li>
+              <li><a class="button" href="#">Comprar platino</a></li>
+            </ul>
+          </div>
+          <div class="column small-6 medium-4 medium-offset-2">
+            <ul class="pricing-table no-bullet text-center">
+              <li class="title">Gold</li>
+              <li class="price">$90</li>
+              <li class="description">Acceso viernes, sábado y domingo</li>
+              <li>Acceso a todos los escenarios</li>
+              <li data-equalizer-watch>1 consumición de bebida por cada día</li>
+              <li>-</li>
+              <li>-</li>
+              <li><a class="button" href="#">Comprar gold</a></li>
+            </ul>
+          </div>
+          <div class="column small-6 medium-4">
+            <ul class="pricing-table no-bullet text-center">
+              <li class="title">Silver</li>
+              <li class="price">$65</li>
+              <li class="description">Acceso viernes, sábado y domingo</li>
+              <li>Acceso a todos los escenarios</li>
+              <li data-equalizer-watch>-</li>
+              <li>-</li>
+              <li>-</li>
+              <li><a class="button" href="#">Comprar silver</a></li>
+            </ul>
+          </div>
         </div>
-
-        <div class="column small-6 medium-4 medium-offset-2">
-          <ul class="pricing-table">
-            <li class="title">Gold</li>
-            <li class="price">$90</li>
-            <li class="description">Acceso viernes, sábado y domingo</li>
-            <li data-equalizer-watch>Una bebida incluida por cada día</li>
-            <li>-</li>
-            <li>-</li>
-            <li><a class="button" href="#">Comprar gold</a></li>
-          </ul>          
-        </div>
-
-        <div class="column small-6 medium-4">
-          <ul class="pricing-table">
-            <li class="title">Silver</li>
-            <li class="price">$65</li>
-            <li class="description">Acceso viernes, sábado y domingo</li>
-            <li data-equalizer-watch>-</li>
-            <li>-</li>
-            <li>-</li>
-            <li><a class="button" href="#">Comprar silver</a></li>
-          </ul>          
-        </div>
-
-      </div>
-    </section>
+      </section>
     <!--/ Compra de boletos -->
+
+    <!-- Suscribete -->
+    <section id="suscribete-container">
+      <h3 class="text-center">Suscríbete</h3>
+      <h4 class="text-center">
+        <small> Y recibe las últimas novedades del concierto</small>
+      </h4>
+
+      <form action="" method="">
+        <div class="row columns small-12 medium-6">
+          <div class="input-group">
+            <span class="input-group-label"><i class="fi-mail"></i></span>
+            <input type="email" name="email" class="input-group-field" placeholder="tu@correo.com">
+            <div class="input-group-button">
+              <input type="submit" value="Suscribirse" class="button">
+            </div>
+          </div>
+        </div>
+      </form>
+    </section>
+    <!-- / Suscribete -->
 
     <!-- Info -->
     <section id="info-container">
